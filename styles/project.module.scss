@@ -1,0 +1,25 @@
+main.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .box {
+    width: 70%;
+    div {
+      width: 100%;
+      overflow: hidden;
+      img {
+        margin: 3rem 0rem;
+        width: 100%;
+      }
+      img:hover {
+        transform: scale(1.2);
+        padding: 1rem 0;
+        transition: all 0.25s;
+      }
+    }
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+}

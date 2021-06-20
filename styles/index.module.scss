@@ -1,0 +1,21 @@
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  section.left {
+    flex: 1 1 500px;
+    padding: 2rem;
+    justify-content: center;
+    h1 {
+      font-size: 4rem;
+      color: darkblue;
+      text-align: center; 
+    }
+    p {
+      font-size: 1.75rem;
+      padding: 1rem 0rem;
+     text-align: center; 
+    }
+  }
+
+}
